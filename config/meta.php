@@ -20,6 +20,7 @@ return array(
 		'window-target',
 	),
 	// Auto load tags from config groups. Ex: array('meta.tags', 'site_meta', 'blog.meta_tags')
+	// Set RDFa property attribute. Ex: array('meta.tags', array('name' => 'facebook.meta_tags', 'attribute' => 'property')) 
 	'tags_config_groups' => array('meta.tags'),
 	// Default tag values. See http://en.wikipedia.org/wiki/Meta_element
 	'tags' => array(
